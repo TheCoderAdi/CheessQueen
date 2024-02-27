@@ -1,0 +1,91 @@
+@media (width <= 920px) {
+  .hero-text {
+    width: 50%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .buttons > .img {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+  }
+}
+@media (width <= 660px) {
+  .hero-text {
+    width: 100%;
+  }
+  .hero-text > button {
+    font-size: 0.8rem;
+  }
+}
+@media (width <= 550px) {
+  .hero-text {
+    left: 50%;
+  }
+  .myfont {
+    font-size: 2rem;
+  }
+  .marquee__text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (width <= 410px) {
+  .buttons > .img {
+    height: 30vh;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media (width <= 520px) {
+  .left__container {
+    padding: 0;
+    margin: 0;
+  }
+  .right__container {
+    padding: 0;
+    margin: 0;
+  }
+  .right__inner {
+    gap: 1.2rem;
+  }
+  .left__inner {
+    gap: 1.2rem;
+  }
+
+  #buttons > .button,
+  .buttons > .button {
+    font-size: 0.8rem;
+  }
+}
+@media (width <= 360px) {
+  #buttons > .button {
+    padding: 1rem 1rem;
+  }
+}
+
+@media (width <= 610px) {
+  .footer q {
+    font-size: 1.2rem;
+  }
+}
+@media (width <= 610px) {
+  #contactus {
+    padding: 0.8rem;
+  }
+  .contact__left > h2 {
+    font-size: 1.5rem;
+  }
+  .contact__left > h3 {
+    font-size: 0.8rem;
+  }
+  .contact__right > button {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+  }
+  .contact__right > h6 {
+    padding-top: 0.9rem;
+  }
+}

@@ -1,0 +1,37 @@
+@media (width <= 1150px) {
+  .p {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .img1 {
+    height: 30vh;
+  }
+}
+@media (width <= 900px) {
+  #img2 {
+    height: 50vh;
+  }
+  #img3 {
+    height: 50vh;
+  }
+}
+
+@media (width <= 630px) {
+  #row2 {
+    height: 70vh;
+  }
+  #row3 {
+    height: 70vh;
+  }
+}
+@media (width <= 550px) {
+  .header > h1 {
+    font-size: 1.3rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  #row2 {
+    flex-direction: column-reverse;
+  }
+}

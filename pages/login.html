@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <title>Skynazar Technologies - Login Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles/login.css" />
+  <link rel="stylesheet" href="../styles/index.css" />
+  <link rel="stylesheet" href="../css_media/login_media.css" />
+  <body class="dark-mode">
+    <div id="myHeader" class="header">
+      <h1>My Login Dashboard</h1>
+    </div>
+    <div class="navbar">
+      <div name="c1" id="c1" class="dropdown">
+        <button class="dropbtn">
+          <b>Select &#8595;</b>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="summercamp.html">Summer Camp Special</a>
+          <a href="register.html">Register</a>
+          <a href="support.html">Need Help? Support</a>
+          <a href="survey.html">Survey</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="articles.html">Articles</a>
+          <a href="achievements.html">Gallery</a>
+          <a href="contactus.html">Enquiry or Contact us</a>
+          <a href="feedback.html">Feedback</a>
+        </div>
+      </div>
+      <a href="changepassword.php"><b>Change Password</b></a>
+      <a href="https://webmail.skynazar.com"><b>Email</b></a>
+    </div>
+    <div name="contactus" id="contactus" class="container">
+      <h1 style="text-align: center; margin-top: 1rem"><b>Login Panel</b></h1>
+      <div class="card">
+        <h5><i>*Please enter your Userid and Password if recieved.</i></h5>
+        <form name="employeelogin" method="post" action="login.php">
+          <div class="row">
+            <label for="userid">User Name </label
+            ><input
+              type="text"
+              id="userid"
+              name="userid"
+              placeholder="Your Userid"
+            />
+          </div>
+          <div class="row">
+            <label for="password">Password </label
+            ><input
+              id="password"
+              type="password"
+              name="passwd"
+              placeholder="Your Password"
+            />
+          </div>
+          <button type="submit" class="button">
+            <b>Submit &rarr;</b>
+          </button>
+        </form>
+      </div>
+      <div class="card">
+        <h5 style="font-size: 1rem">
+          <i><b>Other Options: </b></i>
+        </h5>
+        <div class="card__inner">
+          <button
+            onclick="window.location.href='changepassword.php'"
+            class="button"
+          >
+            <b>Change Password &rarr;</b>
+          </button>
+          <button onclick="window.location.href='support.html'" class="button">
+            <b>Forgot Password &rarr;</b>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h6>
+        Please Click <a href="support.html"> here </a>to report if your Login
+        Credentials Not working.
+      </h6>
+    </div>
+  </body>
+</html>

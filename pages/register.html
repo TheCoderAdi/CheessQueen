@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Skynazar Chess Academy is a leading Chess Academy in India. We provide online chess coaching for kids and adults. We have a team of experienced coaches who are FIDE rated players and have won many tournaments. We provide online chess coaching for beginners, intermediate and advanced players. We also provide online chess coaching for kids and adults. We have a team of experienced coaches who are FIDE rated players and have won many tournaments. We provide online chess coaching for beginners, intermediate and advanced players. We also provide online chess coaching for kids and adults. We have a team of experienced coaches who are FIDE rated players and have won many tournaments. We provide online chess coaching for beginners, intermediate and advanced players. We also provide online chess coaching for kids and adults. We have a team of experienced coaches who are FIDE rated players and have won many tournaments."
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167146151-1"
+    ></script>
+    <title>Register</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/register.css" />
+    <link rel="stylesheet" href="../css_media/register_media.css" />
+    <script src="../scripts/register.js" defer></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167146151-1");
+    </script>
+  </head>
+  <body class="dark-mode">
+    <div class="main">
+      <div class="header">
+        <img
+          src="../images/enroll.jpg"
+          height="100px"
+          width="190px"
+          alt="Enroll"
+        />
+      </div>
+      <div name="contactus" id="contactus">
+        <h1><b>Registration</b></h1>
+      </div>
+      <h5 style="color: crimson; text-align: center">
+        <i><b>*Please provide correct details to Register.</b></i>
+      </h5>
+      <form
+        action="/customersubmit.php"
+        method="post"
+        onsubmit="return checkform(this);"
+        name="frm"
+      >
+        <div class="row">
+          <div class="row__inner">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Parent or Guardians Name"
+              maxlength="50"
+              required
+              title="Pls enter only letters"
+            />
+          </div>
+          <div class="row__inner">
+            <label for="kidname">Player Name</label>
+            <input
+              type="text"
+              id="kidname"
+              name="kidname"
+              placeholder="Kids Name or Player Name"
+              maxlength="50"
+              required
+              title="Pls enter only letters"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="row__inner">
+            <label for="age">Player Age</label>
+            <input
+              type="text"
+              id="age"
+              name="age"
+              placeholder="Kids or Player Age in years"
+              maxlength="50"
+            />
+          </div>
+          <div class="row__inner">
+            <label for="email">Your Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your Email.."
+              maxlength="50"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="row__inner">
+            <label for="phone">Phone</label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="Your Phone no.."
+              maxlength="14"
+              required
+            />
+          </div>
+          <div class="row__inner">
+            <label for="course">Enrollment For:</label>
+            <select id="course" name="course" aria-label="course">
+              <option value="Beginner">Beginner Course</option>
+              <option value="Intermediate">Intermediate Course</option>
+              <option value="Advanced">Advanced Masters Course</option>
+              <option value="SundayQuads">Quads Sunday Action</option>
+              <option value="InPersonCoaching">In-Person Coaching</option>
+              <option value="OneToOne">One-To-One Online Coaching</option>
+              <option value="SaturdayTournaments">Saturday Tournaments</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row__inner">
+            <label for="reference">Offer Code if any</label>
+            <input
+              type="text"
+              id="reference"
+              name="reference"
+              placeholder="Enter Discount Offer Code if you have..."
+              maxlength="30"
+              title="Pls enter only if available"
+              value="OFFER CODE"
+            />
+          </div>
+          <div class="row__inner">
+            <label for="email">Your City</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="Your City.."
+              maxlength="50"
+              title="Pls enter only letters and correct city name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="row__inner">
+            <label for="address">Address</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Residential Location or Address"
+              maxlength="50"
+            />
+          </div>
+          <div class="row__inner">
+            <label for="country">Your Country</label>
+            <select id="country" name="country" aria-label="country>
+              <option value="Australia">Australia</option>
+              <option value="Belgium">Belgium</option>
+              <option value="Canada">Canada</option>
+              <option value="India">India</option>
+              <option value="Netherlands">Netherlands</option>
+              <option value="SouthAfrica">South Africa</option>
+              <option value="UAE">UAE</option>
+              <option value="UK">UK</option>
+              <option value="USA">USA</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row__inner">
+            <label for="subject">Message</label>
+            <textarea
+              id="subject"
+              name="message"
+              placeholder="Any questions if you like to know here..."
+              style="height: 100px"
+              title="Pls enter only letters"
+            ></textarea>
+          </div>
+          <div class="row__inner">
+            <div class="capbox-inner">
+              <div id="CaptchaDiv"></div>
+              <input type="hidden" id="txtCaptcha" />
+              <input
+                type="text"
+                name="CaptchaInput"
+                id="CaptchaInput"
+                size="30"
+                placeholder="Type the number "
+              />
+            </div>
+            <label class="question" for="question" style="color: crimson"
+              ><b>Year in which India got Independence</b></label
+            >
+            <input
+              type="text"
+              id="question"
+              name="question"
+              placeholder="Year in 4 digits"
+              maxlength="4"
+              title="Write the year in numbers only, just 4 digits and No Characters"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <input
+            type="checkbox"
+            name="consent"
+            value="Consent"
+            required
+            placeholder="checkbox"
+          />
+
+          <p>
+            Answering to above question correctly will only ensure genuine
+            submission and our team will then respond. Your Information is
+            secured and protected. I hereby confirm to have read and agreed to
+            Skynazar
+            <span><a style="color: crimson;" href="privacy.html">Privacy Policies</a></span> and fully
+            consent to share my information here.
+          </p>
+        </div>
+        <button type="submit" name="sub1" id="sub1" class="button">
+          Submit here
+        </button>
+        <h6 align="center">email us : <b>chess@skynazar.com</b></h6>
+      </form>
+      <script type="text/javascript">
+        function checkform(theform) {
+          var why = "";
+
+          if (theform.CaptchaInput.value == "") {
+            why +=
+              "- Please Enter CAPTCHA Code as shown, to submit the form.\n";
+          }
+          if (theform.CaptchaInput.value != "") {
+            if (ValidCaptcha(theform.CaptchaInput.value) == false) {
+              why +=
+                "- Please check, the CAPTCHA Code Does Not Match.\n Kindy enter the correct Captcha as shown in the box\n";
+            }
+          }
+          if (why != "") {
+            alert(why);
+            return false;
+          }
+        }
+
+        var a = Math.ceil(Math.random() * 9) + "";
+        var b = Math.ceil(Math.random() * 9) + "";
+        var c = Math.ceil(Math.random() * 9) + "";
+        var d = Math.ceil(Math.random() * 9) + "";
+        var e = Math.ceil(Math.random() * 9) + "";
+
+        var code = a + b + c + d + e;
+        document.getElementById("txtCaptcha").value = code;
+        document.getElementById("CaptchaDiv").innerHTML = code;
+
+        // Validate input against the generated number
+        function ValidCaptcha() {
+          var str1 = removeSpaces(document.getElementById("txtCaptcha").value);
+          var str2 = removeSpaces(
+            document.getElementById("CaptchaInput").value
+          );
+          if (str1 == str2) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+
+        // Remove the spaces from the entered and generated code
+        function removeSpaces(string) {
+          return string.split(" ").join("");
+        }
+      </script>
+      <div class="footer">
+        <h4>
+          Play the Chess opening like a Book, the middlegame like a Magician,
+          and the endgame like a Machine...
+        </h4>
+        <h5>&#8702; Rudolph Spielmann</h5>
+      </div>
+      <div id="page2" style="text-align: center">
+        <p>
+          <img
+            class="img"
+            src="../images/summer.jpg"
+            width="300px"
+            height="300px"
+            alt="Summer"
+          />
+          <img
+            class="img"
+            src="../images/thankyou.png"
+            width="300px"
+            height="300px"
+            alt="Thankyou"
+          />
+        </p>
+      </div>
+      <div class="navbar">
+        <div class="navbar__inner" style="float: left">
+          <a href="../index.html">Home</a>
+          <a href="courses.html">Courses</a>
+        </div>
+
+        <div style="float: right" class="navbar__inner">
+          <a href="../pages/login.html">Login</a>
+          <a href="achievements.html">Gallery</a>
+        </div>
+      </div>
+      <h5 style="text-align: center; font-size: 1.3rem">
+        <i>&copy; Copyright 2021 Skynazar Technologies Pvt Ltd </i>
+      </h5>
+    </div>
+  </body>
+</html>

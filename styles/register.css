@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#contactus h1 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 10px;
+}
+form > h6 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.row__inner {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  width: 70%;
+}
+
+.row__inner > input,
+select,
+.capbox-inner > input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.row__inner > label {
+  font-size: 1.4rem;
+}
+
+#CaptchaDiv {
+  color: #000000;
+  font: normal 25px Impact, Charcoal, arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffffff;
+  -webkit-user-select: none;
+  user-select: none;
+  display: inline-block;
+  padding: 3px 14px 3px 8px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+#CaptchaInput {
+  border: #2874a6 2px solid;
+  margin: 3px 0px 1px 0px;
+}
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+.footer {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.footer > h5 {
+  text-align: right;
+  width: 80%;
+}
+.navbar {
+  border-top: 1px solid #fff;
+  height: 10vh;
+}
+.navbar__inner > a {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-inline: 10px;
+}

@@ -1,0 +1,168 @@
+.navbar {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  background: url("../images/smitaplaying.jpg") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+  position: relative;
+  background-position: center;
+  margin-top: 4rem;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  gap: 10px;
+  text-align: center;
+}
+
+.myfont {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.font2 {
+  font-size: 1.5rem;
+}
+.button {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  background-color: crimson;
+  color: azure;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.button:hover {
+  box-shadow: 5px 5px 0 rgb(247, 236, 239);
+}
+.marquee__text {
+  margin-top: 4rem;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+#main__page2 {
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.2rem;
+}
+
+.left__container {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1rem;
+}
+.right__container {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1rem;
+}
+.buttons img {
+  width: 65%;
+  aspect-ratio: 1/1;
+}
+
+#buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 1rem;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  padding: 1rem;
+}
+.footer q {
+  font-size: 1.5rem;
+}
+.footer h5 {
+  width: 90%;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+#contactus {
+  border-top: 1px solid #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  padding: 1rem;
+}
+
+.contact__left > h2 {
+  font-size: 2.3rem;
+}
+.contact__left > h3 {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.contact__right > h6 {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}

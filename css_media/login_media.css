@@ -1,0 +1,19 @@
+@media (width <= 768px) {
+  .button {
+    font-size: 0.9rem;
+  }
+}
+@media (width <= 520px) {
+  .row {
+    width: 100%;
+  }
+  .button {
+    padding: 1rem;
+  }
+  .header h1 {
+    font-size: 1.2rem;
+  }
+  .card__inner {
+    gap: 4px;
+  }
+}
